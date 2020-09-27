@@ -17,7 +17,7 @@ h2 {
 }
 
 mark {
-    background-color: #0beda2;
+    background-color: #0bedcb;
     color: #003668;
     padding: 3px;
 }
@@ -30,6 +30,14 @@ section {
 
 /*IDS*/
 
+#exp {
+    flex-direction: row;
+}
+
+#hobbies {
+    flex-direction: row;
+}
+
 #footer {
     background-color: #003668;
     color: white;
@@ -40,13 +48,26 @@ section {
     background-color: #7451eb;
     color: white;
     flex-direction: row-reverse;
+    font-size: 25px;
 }
 
-#main {
-    flex-direction: row;
+#schools {
+    background-color: #cacaca;
+    flex-direction: row-reverse;
 }
 
 /*PATHS*/
+
+#exp aside, #hobbies aside, #schools aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 140px;
+}
+
+#exp article, #hobbies article, #schools article {
+    font-size: 20px;
+}
 
 #footer article{
     font-size: 30px;
@@ -63,24 +84,26 @@ section {
 }
 
 #footer aside li {
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 #footer aside ul {
     display: flex;
     flex-direction: row;
+    font-size: 60px;
     justify-content: start;
     list-style-type: none;
+    padding: 0;
 }
 
-#main article {
-    font-size: 20px;
-}
+/*#header article h1 {*/
+/*    margin-bottom: 3px;*/
+/*}*/
 
-#main aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 200px;
-    font-weight: bold;
+/*#header article h2 {*/
+/*    margin-top: 3px;*/
+/*}*/
+
+#header img {
+    width: 250px;
 }
