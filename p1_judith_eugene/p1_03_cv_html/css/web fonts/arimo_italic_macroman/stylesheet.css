@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'arimoitalic';
+    src: url('Arimo-Italic-webfont.eot');
+    src: url('Arimo-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Arimo-Italic-webfont.woff2') format('woff2'),
+         url('Arimo-Italic-webfont.woff') format('woff'),
+         url('Arimo-Italic-webfont.ttf') format('truetype'),
+         url('Arimo-Italic-webfont.svg#arimoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
